@@ -1,5 +1,9 @@
 #DiscoverBPS
+A website where you can easily find schools your children are eligible to attend based on your address. Visit [Discover BPS](http://www.discoverbps.org).
 
+![Discover BPS Homepage](http://cl.ly/image/2t3O0R1T1e3Q/Image%202014-01-20%20at%2011.51.40%20PM.png)
+
+![Discover BPS sample results](http://cl.ly/image/2T3A0Y0y0y1n/Image%202014-01-20%20at%2011.44.13%20PM.png)
 
 ## Stack Overview
 
@@ -58,9 +62,10 @@ Start the app locally on port 8080 using Unicorn:
 1. On the home page, enter "123" for "Street Number", "Main St" for "Street Name", "02115" for "ZIP", and "3" for Grade.
 2. Press "Next"
 3. Press "Next" when the confirmation popup appears
+4. Press "Next" again
 
-You should see something like this:
-![Discover BPS screenshot](http://cl.ly/image/2T3A0Y0y0y1n/Image%202014-01-20%20at%2011.44.13%20PM.png)
+You should see something like the results screenshot at the top of this README.
+
 
 
 Copyright © 2013, Open Counter Enterprises Inc.
