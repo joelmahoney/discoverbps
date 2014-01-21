@@ -1,5 +1,6 @@
 #DiscoverBPS
 
+
 ## Stack Overview
 
 * Ruby version 2.0.0
@@ -46,10 +47,20 @@ Here's what the script will do:
 3. Import schools from the API into the DB
 4. Update each school's attributes from the API
 
+This will take several minutes to run.
+
 ### Run the app
 Start the app locally on port 8080 using Unicorn:
 
     unicorn
+
+### See a sample result set
+1. On the home page, enter "123" for "Street Number", "Main St" for "Street Name", "02115" for "ZIP", and "3" for Grade.
+2. Press "Next"
+3. Press "Next" when the confirmation popup appears
+
+You should see something like this:
+![Discover BPS screenshot](http://cl.ly/image/2T3A0Y0y0y1n/Image%202014-01-20%20at%2011.44.13%20PM.png)
 
 
 Copyright © 2013, Open Counter Enterprises Inc.
